@@ -29,7 +29,7 @@ import static org.assertj.core.api.Assertions.*;
 public class Images {
 
     private static final String IMAGE_NAME = "alpine:3.2";
-    private Logger logger = LoggerFactory.getLogger(Containers.class);
+    private Logger logger = LoggerFactory.getLogger(Images.class);
 
     private DockerClient client;
 
